@@ -856,11 +856,11 @@ h1, h2, h3, h4, h5, h6 {
 .site-footer {
   background: #222222;
   color: rgba(255,255,255,0.7);
-  padding: 50px 0 0;
+  padding: 36px 0 0;
 }
 .footer-text {
   text-align: center;
-  padding-bottom: 30px;
+  padding-bottom: 12px;
   border-bottom: 1px solid rgba(255,255,255,0.1);
 }
 .footer-text p {
@@ -874,7 +874,7 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   flex-wrap: wrap;
   gap: 8px 20px;
-  margin: 20px 0;
+  margin: 16px 0 10px;
 }
 .footer-links a {
   font-family: 'Josefin Sans', Arial, sans-serif;
@@ -891,8 +891,8 @@ h1, h2, h3, h4, h5, h6 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 24px;
-  padding: 28px 0;
+  gap: 20px;
+  padding: 20px 0;
   border-top: 1px solid rgba(255,255,255,0.08);
 }
 .footer-logos img {
@@ -906,7 +906,7 @@ h1, h2, h3, h4, h5, h6 {
 .footer-logos img:hover { opacity: 1; }
 .footer-bottom {
   border-top: 1px solid rgba(255,255,255,0.08);
-  padding: 18px 0;
+  padding: 14px 0;
   display: flex;
   align-items: center;
   justify-content: space-between;
