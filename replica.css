@@ -189,21 +189,23 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Book Now CTA */
 .nav-cta {
-  background: #01a5ad;
+  background: #f19a03;
   color: #ffffff !important;
-  padding: 9px 20px;
+  padding-top: 12px;
+  padding-bottom: 6px;
+  padding-left: 20px;
+  padding-right: 20px;
   font-family: 'Josefin Sans', Arial, sans-serif;
   font-size: 0.78rem;
   font-weight: 700;
   letter-spacing: 0.08em;
   text-transform: uppercase;
-  border: 2px solid #01a5ad;
+  border: 2px solid #f19a03;
   transition: all 0.25s;
 }
 .nav-cta:hover {
-  background: #018a91 !important;
-  border-color: #018a91;
-  background: transparent;
+  background: #d98902 !important;
+  border-color: #d98902;
 }
 
 /* Mobile hamburger */
@@ -267,7 +269,7 @@ h1, h2, h3, h4, h5, h6 {
 .hero-h2 {
   font-family: 'Josefin Sans', Arial, sans-serif;
   font-size: clamp(1rem, 2.5vw, 1.45rem);
-  font-weight: 300;
+  font-weight: 600;
   color: rgba(255,255,255,0.92);
   margin-bottom: 30px;
   letter-spacing: 0.04em;
