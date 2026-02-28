@@ -82,6 +82,8 @@ h1, h2, h3, h4, h5, h6 {
   background: transparent;
   color: #01a5ad;
   border-color: #01a5ad;
+  padding-top: 15px;
+  padding-bottom: 9px;
 }
 .btn-outline-primary:hover {
   background: #01a5ad;
