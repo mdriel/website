@@ -255,7 +255,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .hero-h1 {
   font-family: 'Josefin Sans', Arial, sans-serif;
-  font-size: clamp(2rem, 5vw, 3.8rem);
+  font-size: clamp(1.4rem, 3.2vw, 2.4rem);
   font-weight: 700;
   color: #ffffff;
   margin-bottom: 16px;
