@@ -119,34 +119,11 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   flex-shrink: 0;
 }
-.nav-brand-img {
-  width: 46px;
-  height: 46px;
-  border-radius: 50%;
-  object-fit: cover;
-  border: 2px solid rgba(255,255,255,0.5);
-  transition: border-color 0.3s;
+.nav-brand-logo {
+  height: 52px;
+  width: auto;
+  object-fit: contain;
 }
-.nav-solid .nav-brand-img { border-color: #01a5ad; }
-.nav-brand-text {
-  font-family: 'Josefin Sans', Arial, sans-serif;
-  font-size: 1.05rem;
-  font-weight: 700;
-  color: #ffffff;
-  letter-spacing: 0.03em;
-  line-height: 1.2;
-  transition: color 0.3s;
-}
-.nav-brand-sub {
-  font-size: 0.65rem;
-  font-weight: 300;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: rgba(255,255,255,0.75);
-  transition: color 0.3s;
-}
-.nav-solid .nav-brand-text { color: #222222; }
-.nav-solid .nav-brand-sub  { color: #01a5ad; }
 
 /* Nav links */
 .nav-links {
