@@ -123,7 +123,10 @@ h1, h2, h3, h4, h5, h6 {
   height: 52px;
   width: auto;
   object-fit: contain;
+  transition: height 0.35s ease;
 }
+.page-home .main-nav.nav-transparent .nav-inner { height: 96px; }
+.page-home .main-nav.nav-transparent .nav-brand-logo { height: 84px; }
 
 /* Nav links */
 .nav-links {
