@@ -57,13 +57,15 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 0;
 }
 .btn-primary {
-  background-color: #01a5ad;
+  background-color: #f19a03;
   color: #ffffff;
-  border-color: #01a5ad;
+  border-color: #f19a03;
+  padding-top: 15px;
+  padding-bottom: 9px;
 }
 .btn-primary:hover {
-  background-color: #018a91;
-  border-color: #018a91;
+  background-color: #d98902;
+  border-color: #d98902;
   color: #ffffff;
 }
 .btn-outline-white {
