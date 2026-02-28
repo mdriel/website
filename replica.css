@@ -84,6 +84,7 @@ h1, h2, h3, h4, h5, h6 {
   border-color: #01a5ad;
   padding-top: 15px;
   padding-bottom: 9px;
+  font-size: 1rem;
 }
 .btn-outline-primary:hover {
   background: #01a5ad;
