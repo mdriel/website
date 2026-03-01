@@ -359,7 +359,7 @@ h1, h2, h3, h4, h5, h6 {
   min-height: 45vh;
   display: flex;
   align-items: center;
-  background: #ffffff;
+  background: #f2ece0;
 }
 .welcome-section .section-heading { color: #01a5ad; }
 
