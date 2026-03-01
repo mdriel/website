@@ -116,7 +116,7 @@
       <img src="../images/pride.jpg" alt="Pride">
     </div>
     <div class="footer-bottom">
-      <p>&copy; 2026 Michele Riel, Registered Psychotherapist. All Rights Reserved.</p>
+      <p>&copy; <span id="footer-easter-egg">2026 Michele</span> Riel, Registered Psychotherapist. All Rights Reserved.</p>
     </div>
   </div>
 </footer>
@@ -128,5 +128,6 @@
   burger.addEventListener('click',()=>{burger.classList.toggle('open');links.classList.toggle('open');document.body.style.overflow=links.classList.contains('open')?'hidden':'';});
   document.querySelectorAll('.nav-links a').forEach(l=>l.addEventListener('click',()=>{links.classList.remove('open');burger.classList.remove('open');document.body.style.overflow='';}));
 </script>
+<script src="../easter-egg.js"></script>
 </body>
 </html>

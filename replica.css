@@ -924,6 +924,28 @@ h1, h2, h3, h4, h5, h6 {
 .footer-bottom a:hover { color: rgba(255,255,255,0.7); }
 .footer-jane { display: flex; align-items: center; gap: 8px; }
 .footer-jane img { max-width: 100px; opacity: 0.6; }
+#footer-easter-egg { cursor: default; user-select: none; }
+#donkey-runner {
+  position: fixed;
+  bottom: 34px;
+  left: 0;
+  font-size: 64px;
+  line-height: 1;
+  z-index: 9999;
+  pointer-events: none;
+  animation: donkey-gallop 2.4s linear forwards;
+}
+@keyframes donkey-gallop {
+  0%   { transform: translateX(-100px) scaleX(-1); }
+  12%  { transform: translateX(calc(8.33vw))  scaleX(-1) translateY(-4px); }
+  25%  { transform: translateX(calc(25vw))    scaleX(-1) translateY(0px); }
+  37%  { transform: translateX(calc(37.5vw))  scaleX(-1) translateY(-5px); }
+  50%  { transform: translateX(calc(50vw))    scaleX(-1) translateY(0px); }
+  62%  { transform: translateX(calc(62.5vw))  scaleX(-1) translateY(-4px); }
+  75%  { transform: translateX(calc(75vw))    scaleX(-1) translateY(0px); }
+  87%  { transform: translateX(calc(87.5vw))  scaleX(-1) translateY(-5px); }
+  100% { transform: translateX(calc(100vw + 100px)) scaleX(-1) translateY(0px); }
+}
 
 /* ===== UTILITY ===== */
 .text-center { text-align: center; }
